@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Insider - CaseStudy Api Test Automation">
+    <test name="Api Test">
+        <classes>
+            <class name="github.celikyunusemre.tests.ApiTestAutomation">
+                <methods>
+                    <include name="addNewPet"/>
+                    <include name="failAddingNewPet"/>
+                    <include name="findPetByStatus"/>
+                    <include name="findPetByID"/>
+                    <include name="updateExistingPet"/>
+                    <include name="updatePet"/>
+                    <include name="updateExistingPetFail"/>
+                    <include name="findPetNonExistByID"/>
+                    <include name="deletePet"/>
+                    <include name="deletePetFail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
